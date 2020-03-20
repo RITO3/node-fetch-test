@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint ./src/ --ext .ts -f html -o ./result/eslint/report.html",
+    "eslint:checkstyle":"eslint ./src/ --ext .ts -f checkstyle -o ./result/eslint/checkstyle.xml",
     "test": "jest"
   },
   "repository": {
@@ -30,6 +31,7 @@
     "jest": "^25.1.0",
     "jest-fetch-mock": "^3.0.3",
     "jest-html-reporters": "^1.2.1",
+    "jest-junit": "^10.0.0",
     "prettier": "^1.19.1",
     "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
