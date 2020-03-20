@@ -60,6 +60,5 @@ describe('TestApi', () => {
 
   afterEach(() => {
     fetchMock.resetMocks();
-    console.log('reset mocks.');
   });
 });
