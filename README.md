@@ -11,6 +11,7 @@ npm install --save-dev typescript
 npm install --save-dev @types/node
 npm install --save-dev ts-jest
 npm install --save-dev jest-html-reporters
+npm install --save-dev jest-junit
 ```
 
 ESLintのインストール.
