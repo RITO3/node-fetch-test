@@ -25,7 +25,14 @@ npm install --save-dev @typescript-eslint/eslint-plugin
 npm install --save-dev @typescript-eslint/parser
 ```
 
-node-fetchのインストール
+jscpdのインストール.
+
+```sh
+npm install --save-dev jscpd
+npm install --save-dev jscpd-badge-reporter
+```
+
+node-fetchのインストール.
 
 ```sh
 npm install --save node-fetch

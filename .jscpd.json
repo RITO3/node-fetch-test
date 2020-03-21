@@ -1,0 +1,7 @@
+{
+  "threshold": 0.1,
+  "reporters": ["html", "console", "badge", "xml"],
+  "absolute": true,
+  "output": "./result/jscpd",
+  "ignore": ["**/*.spec.ts", "**/*.test.ts"]
+}
