@@ -32,6 +32,12 @@ npm install --save-dev jscpd
 npm install --save-dev jscpd-badge-reporter
 ```
 
+clocのインストール.
+
+```sh
+npm install --save-dev cloc
+```
+
 node-fetchのインストール.
 
 ```sh

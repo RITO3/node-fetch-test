@@ -7,8 +7,11 @@
   },
   "cSpell.words": [
     "checkstyle",
+    "cloc",
+    "clocignore",
     "cobertura",
     "jscpd",
-    "junit"
+    "junit",
+    "precloc"
   ]
 }

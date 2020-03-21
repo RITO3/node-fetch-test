@@ -1,9 +1,5 @@
 import { default as fetch } from 'node-fetch';
-
-export class User {
-  id!: number;
-  name!: string;
-}
+import { User } from './user';
 
 export class TestApi {
   constructor(private url: string) {}
