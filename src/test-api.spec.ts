@@ -2,7 +2,8 @@
 import fetchMock from 'jest-fetch-mock';
 jest.setMock('node-fetch', fetchMock);
 
-import { TestApi, User } from './test-api';
+import { TestApi } from './test-api';
+import { User } from './user';
 describe('TestApi', () => {
   let api: TestApi;
 
